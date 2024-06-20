@@ -1,19 +1,15 @@
-import Login from "./login"
+import Button from './components/button'
+import Card from './components/card'
+
 function App() {
     return (
         <div>
-            {/* <Login>
+            <h2>My App</h2>
+            <Card />
 
-            </Login> */}
-            <Login title='sign up'
-                   list={['free domain']}
-            />
-            <Login title='register'
-                   list={['free domain',
-                        'free hosting', 
-                        'SSL key'
-            ]}/>
+            <hr />
 
+            <Button />
         </div>
     )
 }
