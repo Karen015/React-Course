@@ -1,15 +1,9 @@
-import Button from './components/button'
-import Card from './components/card'
+import Auth from "./pages/Auth";
 
 function App() {
     return (
         <div>
-            <h2>My App</h2>
-            <Card />
-
-            <hr />
-
-            <Button />
+            <Auth />
         </div>
     )
 }
